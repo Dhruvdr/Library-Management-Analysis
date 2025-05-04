@@ -76,8 +76,9 @@ CREATE TABLE return_status
             FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
 );
 
--- ALTER TABLE return_status
--- ADD CONSTRAINT fk_issued_status
--- FOREIGN KEY ( issued_id)
--- REFERENCES issued_status(issued_id);
+ALTER TABLE return_status
+ADD CONSTRAINT fk_issued_status
+FOREIGN KEY ( issued_id)
+REFERENCES issued_status(issued_id);
 
+-- Import Data using Import data Wizard for each table
