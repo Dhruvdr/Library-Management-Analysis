@@ -26,7 +26,7 @@ The core tables in this project include:
 - `issued_status`: Tracks which books have been issued, by whom, and when
 - `return_status`: Tracks the return status of issued books
 
-📊 Key Analytical Queries
+## 📊 Key Analytical Queries
 Here are some key analysis points implemented in the project:
 - Most frequently issued books
 - Stored procedure to manage the status of books in a library system.
